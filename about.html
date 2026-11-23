@@ -1,0 +1,428 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Us | The Noir Cafe</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap">
+
+    <style>
+        body {
+            background-color: #f5f0e8;
+            color: #30231d;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .navbar {
+            background-color: #30231d;
+        }
+
+        .navbar-brand {
+            color: #f5f0e8;
+            font-family: 'Playfair Display', serif;
+            font-size: 25px;
+        }
+
+        .navbar-brand:hover {
+            color: #d9b98c;
+        }
+
+        .nav-link {
+            color: #f5f0e8;
+            margin-left: 15px;
+        }
+
+        .nav-link:hover {
+            color: #d9b98c;
+        }
+
+        .about-banner {
+            background-color: #e9dfd2;
+            padding: 75px 0;
+            text-align: center;
+        }
+
+        .about-banner h1 {
+            font-size: 55px;
+        }
+
+        .story-section {
+            padding: 75px 0;
+        }
+
+        .story-img {
+            width: 100%;
+            height: 420px;
+            object-fit: cover;
+        }
+
+        .story-text {
+            color: #6c5b50;
+            line-height: 1.9;
+        }
+
+        .coffee-section {
+            background-color: #30231d;
+            color: #f5f0e8;
+            padding: 70px 0;
+        }
+
+        .coffee-section p {
+            color: #d9c9b9;
+            line-height: 1.9;
+        }
+
+        .coffee-img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .values-section {
+            padding: 75px 0;
+        }
+
+        .value-item {
+            border-left: 3px solid #a7794c;
+            padding-left: 18px;
+            margin-bottom: 25px;
+        }
+
+        .value-item p {
+            color: #6c5b50;
+            line-height: 1.8;
+        }
+
+        .closing-section {
+            background-color: #e9dfd2;
+            padding: 55px 15px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #30231d;
+            color: #e8ded4;
+            padding: 45px 0 20px;
+        }
+
+        footer a {
+            color: #e8ded4;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #d9b98c;
+        }
+
+        @media (max-width: 768px) {
+            .about-banner h1 {
+                font-size: 40px;
+            }
+
+            .story-img {
+                height: 300px;
+            }
+
+            .coffee-img {
+                height: 280px;
+                margin-bottom: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="Coffee Cup with Latte Art – Espresso, Cappuccino, and Artisan Coffee Vibes.jpg"
+                    alt="Noir Cafe Logo"
+                    width="45" height="45"
+                    class="rounded-circle me-2">
+                The Noir Cafe
+            </a>
+
+            <button class="navbar-toggler bg-light" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Page Heading -->
+    <section class="about-banner">
+        <div class="container-fluid text-center text-white py-5"
+    style="background-color:#493629;">
+    <h1 class="display-4 fw-bold">About The Noir Cafe</h1>
+    <p class="fs-5">A little coffee, a little happiness.</p>
+  </div>
+    </section>
+
+
+    <!-- Our Story -->
+    <section class="story-section">
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+
+                    <p class="text-uppercase mb-2" style="color:#95663e;">
+                        How it started
+                    </p>
+
+                    <h2 class="display-5 mb-4">
+                        A Place Made For Coffee Lovers
+                    </h2>
+
+                    <p class="story-text">
+                        The Noir Cafe is built around a simple idea:
+                        a good cafe should make people feel comfortable.
+                        It should be a place where you can enjoy your
+                        favourite coffee without rushing.
+                    </p>
+
+                    <p class="story-text">
+                        We love the little things that make a cafe special.
+                        The smell of freshly brewed coffee, conversations
+                        over a table, and those quiet afternoons when
+                        you just want some time for yourself.
+                    </p>
+
+                    <p class="story-text">
+                        That's the kind of atmosphere we want to create
+                        at The Noir Cafe.
+                    </p>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <img src="Cafe Shop Design Ideas.jpg"
+                        alt="Cafe seating area"
+                        class="story-img">
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Coffee Section -->
+    <section class="coffee-section">
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+
+                    <img src="download (24).jpg"
+                        alt="A cup of coffee"
+                        class="coffee-img">
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <p class="text-uppercase mb-2">
+                        What matters to us
+                    </p>
+
+                    <h2 class="display-5 mb-4">
+                        It's Always About The Little Things
+                    </h2>
+
+                    <p>
+                        For us, a cafe is not only about serving coffee.
+                        It's also about the experience that comes with it.
+                    </p>
+
+                    <p>
+                        From the food on your table to the atmosphere
+                        around you, we want every visit to feel easy,
+                        comfortable and enjoyable.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Our Values -->
+    <section class="values-section">
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <p class="text-uppercase" style="color:#95663e;">
+                    What we believe
+                </p>
+
+                <h2 class="display-5">A Few Things We Care About</h2>
+
+            </div>
+
+            <div class="row g-5">
+
+                <div class="col-md-4">
+
+                    <div class="value-item">
+                        <h4>Good Coffee</h4>
+
+                        <p>
+                            A good cup of coffee can make an ordinary
+                            day feel a little better. That's why it
+                            matters to us.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="value-item">
+                        <h4>Warm Hospitality</h4>
+
+                        <p>
+                            We want everyone who walks in to feel
+                            welcome and comfortable.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="value-item">
+                        <h4>Fresh Food</h4>
+
+                        <p>
+                            Coffee tastes even better with something
+                            delicious to go along with it.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Closing Section -->
+    <section class="closing-section">
+
+        <div class="container">
+
+            <h2 class="display-5">
+                Come As You Are.
+            </h2>
+
+            <p class="mt-3">
+                We'd love to have you over for a cup of coffee.
+            </p>
+
+            <a href="menu.html"
+                class="btn mt-3"
+                style="background-color:#30231d; color:white; padding:12px 25px;">
+                Explore Our Menu
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+
+            <div class="row g-4">
+
+                <div class="col-md-5">
+                    <h3>The Noir Cafe</h3>
+
+                    <p class="mt-3">
+                        Good coffee, good food and a place
+                        to enjoy the little moments.
+                    </p>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="about.html">About Us</a></p>
+                    <p><a href="menu.html">Menu</a></p>
+                    <p><a href="contact.html">Contact Us</a></p>
+                </div>
+
+                <div class="col-md-4">
+                    <h5>Visit Us</h5>
+
+                    <p>We look forward to seeing you!</p>
+                    <p>info@thenoircafe.com</p>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <p class="text-center mb-0">
+                © 2026 The Noir Cafe. All Rights Reserved.
+            </p>
+
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+
